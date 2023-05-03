@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/** -----------------------------------
+ヘッダー
+-------------------------------------**/
+
+/* ヘッダー部分の縦横サイズの指定
+   背景色の指定 */
+#header {
+  height: 80px;
+  width: 100% !important;
+  margin: 0 auto;
+  z-index: 1;
+  top: 0px;
+  position: fixed;
+  background-color: #888a8b;
+  align-items: center;
+}
+
+/* ヘッダー内の子要素を横並びを指定 */
+.hd-wrapper {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* ロゴを入れる箱サイズを指定 */
+.header-logo {
+  width: 58px;
+  height: 45x;
+}
+
+/* ロゴのサイズ指定 */
+img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/* 右上文字の高さ設定 */
+.subtitle {
+  height: 24px;
+}
+
+/* 右上文字を太字に設定 */
+.subtitle p {
+  font-weight: bold;
+}
+
+/** -----------------------------------
+Body
+-------------------------------------**/
+
+/* Body全体の縦横のサイズ
+   背景色の指定 */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+/** -----------------------------------
+Body内＜main＞
+-------------------------------------**/
+
+/* 縦並びに指定 */
+main {
+  display: flex;
+  margin-top: 18px;
+  flex-direction: column;
+  height: 100vh;
+}
+
+p.large {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.container{
+  width: 40%;
+  height: 550px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 121px;
+}
+
+.wrapper {
+  height: 20%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.children1 {
+  margin-top: 30px;
+  width: 50%;
+  height: 80px;
+}
+
+.children2 {
+  margin-top: 30px;
+  width: 50%;
+  height: 80px;
+  text-align: left;
+}
+
+
+#register-myself {
+  text-align: center;
+  font-size: 1.12rem;
+  width: 48%;
+  height: 65%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(134, 176, 239);
+  font-weight: bold;
+}
+
+.small {
+  text-align: center;
+}
+
+.wrapper-txt{
+  width: 70%;
+  height: 160px;
+  margin: 0 auto;
+}
+
+#register-edit {
+  text-align: center;
+  font-size: 1.12rem;
+  width: 48%;
+  height: 65%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(134, 176, 239);
+  font-weight: bold;
+}
