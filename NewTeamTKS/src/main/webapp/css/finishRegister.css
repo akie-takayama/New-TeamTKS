@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/** -----------------------------------
+ヘッダー
+-------------------------------------**/
+
+/* ヘッダー部分の縦横サイズの指定
+   背景色の指定 */
+#header {
+  height: 80px;
+  width: 100% !important;
+  margin: 0 auto;
+  z-index: 1;
+  top: 0px;
+  position: fixed;
+  background-color: #888a8b;
+  align-items: center;
+}
+
+/* ヘッダー内の子要素を横並びを指定 */
+.hd-wrapper {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* ロゴを入れる箱サイズを指定 */
+.header-logo {
+  width: 58px;
+  height: 45x;
+}
+
+/* ロゴのサイズ指定 */
+img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/* 右上文字の高さ設定 */
+.subtitle {
+  height: 24px;
+}
+
+/* 右上文字を太字に設定 */
+.subtitle p {
+  font-weight: bold;
+}
+
+/** -----------------------------------
+Body
+-------------------------------------**/
+
+/* Body全体の縦横のサイズ
+   背景色の指定 */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+/** -----------------------------------
+Body内＜main＞
+-------------------------------------**/
+
+main {
+  display: flex;
+  margin-top: 18px;
+  height: 100vh;
+}
+
+/* 二つの箱をまとめる箱 */
+.container {
+  width: 60%;
+  height: 67%;
+  margin: 0 auto;
+}
+
+/* 自己紹介～完了しました！部分 */
+.wrapper1 {
+  margin-top: 100px;
+  background-color: white;
+}
+
+/* 太字指定 */
+p.large {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* 詳細部分箱 */
+.wrapper2 {
+  height: 62%;
+  margin-top: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+/* 詳細部分文字 */
+p.small {
+  text-align: center;
+  display: inline-block;
+  width: 95%;
+  margin-top: 75px;
+}
+
+/* 遷移部分 */
+.finishRegister {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+}

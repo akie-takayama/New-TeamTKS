@@ -1,3 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="model.SyainBean" %>
+
+<%
+	SyainBean sb = (SyainBean)session.getAttribute("loginuser");
+%>
+    
+
+ 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -11,8 +21,8 @@
     <title>チーム開発</title>
 
     <!-- CSSファイル達の読み込み -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
     <!-- body部分-->
     <body>
@@ -41,6 +51,7 @@
                                         最高の自己紹介を完成させて、よりあなたを
                                         知ってもらえるチャンスにしましょう。
                         </p>
+                      	<%= sb.getEmail() %>
                     </div>
                     <div class="wrapper">
                         <div class="children1"><p class ="large">登録内容一覧</p></div>
