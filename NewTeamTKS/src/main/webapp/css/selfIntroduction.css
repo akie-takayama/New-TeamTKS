@@ -1,0 +1,78 @@
+@charset "utf-8";
+body {
+    background-color: #F2F2F2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 8vw 0 3vw;
+    height: 100px;
+    background-color: #AEAAAA;
+    font-weight: bold;
+}
+
+div p {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    width: 70px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+th,td {
+    height: 50px;
+    border: solid 1px black;
+}
+
+th {
+    width: 120px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td {
+    width: 380px;
+    text-align: left;
+    padding: 10px 0 10px 0;
+}
+
+.button_wrapper {
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    margin-bottom: 80px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#return, #edit {
+	background-color: #B4C6E7;
+}
+
+#delete {
+    background-color: #FFC2BC;
+}
+
+button:hover{
+    opacity: 70%;
+}
